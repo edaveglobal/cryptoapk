@@ -1,0 +1,83 @@
+name: hyip_lab
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.1
+  http: ^0.13.4
+  flutter_svg: ^1.0.3
+  lottie: ^1.2.1
+  shared_preferences: ^2.0.13
+  flutter_rating_bar: ^4.0.0
+  image_picker: ^0.8.4+8
+  file_picker: ^5.2.4
+  path_provider: ^2.0.9
+  country_picker: ^2.0.11
+  intl: ^0.17.0
+  pin_code_fields: ^7.3.0
+  dio: ^4.0.4
+  flutter_widget_from_html_core: ^0.8.5+1
+  qr_code_scanner: ^1.0.0
+  dotted_border: ^2.0.0+2
+  animated_bottom_navigation_bar: ^0.3.2
+  auto_size_text: ^3.0.0
+  carousel_slider: ^4.0.0
+  sliding_sheet: ^0.5.2
+  qr_flutter: ^4.0.0
+  share_plus: ^4.0.1
+  syncfusion_flutter_charts: ^19.4.56
+  url_launcher: ^6.0.20
+  flutter_widget_from_html: ^0.8.5
+  font_awesome_flutter: ^10.2.1
+  shimmer: ^2.0.0
+  package_info_plus: ^1.4.2
+  simple_animations: ^4.2.0
+  firebase_messaging: ^12.0.3
+  flutter_local_notifications: ^9.9.0
+  firebase_analytics: ^9.3.2
+  firebase_core: ^1.21.0
+  connectivity_plus: ^2.3.6+1
+  firebase_core_platform_interface: 4.5.1
+  percent_indicator: ^4.2.2
+  google_fonts: ^3.0.1
+  awesome_dialog: ^3.0.2
+  dashed_circular_progress_bar: ^0.0.4
+  permission_handler: ^10.2.0
+  flutter_inappwebview: ^5.7.2+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/home_menu_icon/
+    - assets/icons/
+    - assets/animation/
+    - assets/
+    - assets/language/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/Lora-Regular.ttf
